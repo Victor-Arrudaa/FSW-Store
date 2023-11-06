@@ -29,8 +29,6 @@ export const POST = async (request: Request) => {
       },
     );
     const lineItems = sessionLineItems.line_items;
-
-    await prismaClient.
   }
 
   return NextResponse.json({ received: true });
