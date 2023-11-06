@@ -32,7 +32,7 @@ export default async function Home() {
   return (
     <div className="py-8">
       <PromoBanner
-        src="/public/banner-home01.png"
+        src="/banner-Home01.png"
         alt="Até 55% de desconto esse mês"
       />
 
@@ -45,7 +45,7 @@ export default async function Home() {
       </div>
 
       <PromoBanner
-        src="/public/banner-home02.png"
+        src="/banner-Home02.png"
         alt="Até 55% de desconto em mouses!"
       />
 
@@ -55,7 +55,7 @@ export default async function Home() {
       </div>
 
       <PromoBanner
-        src="/public/banner-home03.png"
+        src="/banner-Home03.png"
         alt="Até 20% de desconto em fones!"
       />
 
